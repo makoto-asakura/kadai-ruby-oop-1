@@ -20,6 +20,7 @@ class Team
   def show_team_result
     puts "#{self.name} の2020年の成績は #{self.win}勝 #{self.lose}負 #{self.draw}分、 勝率は #{calc_win_rate}です。"
   end
+end
   
   #インスタンスの生成
   giants=Team.new("Giants",67,45,8)
@@ -36,4 +37,3 @@ class Team
   bay_stars.show_team_result
   carp.show_team_result
   swallows.show_team_result
-end
